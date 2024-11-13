@@ -7,16 +7,27 @@
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "publish": "expo publish"
   },
   "dependencies": {
     "expo": "~52.0.4",
     "expo-status-bar": "~2.0.0",
+    "expo-updates": "^0.26.5",
+    "glob": "^11.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.1"
+    "react-dom": "18.2.0",
+    "react-native": "0.76.1",
+    "react-native-elements": "^3.4.3",
+    "react-native-web": "~0.19.6",
+    "rimraf": "^4.0.0",
+    "uuid": "^11.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-transform-react-jsx-development": "^7.22.5",
+    "expo-cli": "^6.3.10",
+    "react-refresh": "^0.14.0"
   },
   "private": true
 }

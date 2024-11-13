@@ -1,7 +1,27 @@
 {
   "expo": {
     "name": "native-todo-app",
-    "slug": "native-todo-app",
-    "version": "1.0.0"
+    "slug": "sample-todoapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "bundleIdentifier": "com.hellotksan.todoapp",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hellotksan.todoapp",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e7b6812-e2d7-4fb8-a8b5-b574bced4a5c"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/1e7b6812-e2d7-4fb8-a8b5-b574bced4a5c"
+    }
   }
 }
